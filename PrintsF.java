@@ -10,7 +10,7 @@ public class PrintsF{
        // System.out.printf("%c", mychar);
       //  System.out.printf("%s", mystring);
       //  System.out.printf("%d", myint);
-        System.out.printf("%f", mydouble);
+        System.out.printf("%.2f", mydouble);
        // System.out.printf("%d This is the formet string ", 123);
     }
 }
