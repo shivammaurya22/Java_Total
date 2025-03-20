@@ -19,5 +19,20 @@ public class Jarray {
         for(int j : numbers){
             System.out.println(j);
         } 
+        // other method 
+        int nums[] = {1,2,43,54,56};
+        for(int k : nums){
+            System.out.println(k);
+        }
+        // dynamically define
+        int numsDy[] = new int[4];
+        numsDy[0] = 24;
+        numsDy[1] = 36;
+        numsDy[2] = 20;
+        numsDy[3] = 22;
+
+        for(int y : numsDy){
+            System.out.println(y);
+        }
     }
 }
