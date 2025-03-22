@@ -23,7 +23,7 @@ public class StaticMethod {
         mob1.name = "Redmi y2";
         mob1.price = 12000;
         mob1.model = "Redmi";
-
+        
         mob.display();
         Mobile.display1(mob1);
     }
