@@ -1,6 +1,6 @@
 class A{
     public A(){
-        super();
+      //  super();
         System.out.println("In A");
     }
     public A(int n){
@@ -11,7 +11,7 @@ class A{
 
 class B extends A{
     public B(){
-        super();
+        super(2);  // because super has parameter 2 soo find parameter construcor
         System.out.println("In B");
     }
     public B(int n){
@@ -22,6 +22,6 @@ class B extends A{
 
 public class ThisSuperKeyword {
     public static void main(String[] args) {
-        B obj = new B(5);
+        B obj = new B();
     }
 }
