@@ -25,8 +25,8 @@ class Developer{
 
 public class Interfaces1 {
     public static void main(String[] args) {
-        Computer lap = new Laptop();
-        Computer desk = new Desktop();
+        Computer lap = new Laptop();   // interface refernece
+        Computer desk = new Desktop();   // interface reference
         Developer dev = new Developer();
        // dev.code(lap);
        dev.code(desk);
