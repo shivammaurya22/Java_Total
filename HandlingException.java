@@ -1,7 +1,15 @@
 public class HandlingException {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-           System.out.println(i);   
+        try
+        {
+            int i = 9;
+            int j = 0;
+            int result = i / j;
+            System.out.println(result);
         }
+        catch(Exception e){
+            System.out.println("Something Went worng.");
+        }
+        System.out.println("Bye");
     }
 }

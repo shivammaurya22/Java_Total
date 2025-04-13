@@ -3,9 +3,13 @@ public class FindDuplicates {
         int duplicate = 0;
       //  int ones = array[0];
         for(int i = 0;i<array.length; i++){
-            if(array[i] == array[i]){
-                duplicate += 1;
+            for (int j = i+1;j<array.length;j++){
+                if(array[i] == array[j]){
+                    duplicate++;
+                    break;
+                }
             }
+           
         }
         return duplicate;
     }
