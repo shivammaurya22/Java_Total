@@ -1,4 +1,4 @@
-public class Person{
+opublic class Person{
     public static void main(String[] args){
         // main method
         Person obj = new Person();
